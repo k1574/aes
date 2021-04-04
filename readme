@@ -1,0 +1,15 @@
+# aes
+
+ANSI escape sequences tool, ades inheritor.
+
+# Usage
+
+This one will print in the 5 row 5 column
+title with red foreground and white background:
+
+	% aes to '5;5' fg-red bg-white echo 'IT WORKS, IT JUST WORKS!' end
+
+Get list of aviable AESes with amount of required arguments:
+
+	% aes -l
+
