@@ -53,6 +53,14 @@ static char *seq_names[] = {
 	"bg-bright-magenta",
 	"bg-bright-cyan",
 	"bg-bright-white",
+	"clr-scr",
+	"clr-til-scr-end",
+	"clr-til-scr-beg",
+	"clr-ent-scr",
+	"clr-cur-line",
+	"clr-til-line-end",
+	"clr-til-line-beg",
+	"clr-ent-line",
 	0
 } ;
 
@@ -106,6 +114,15 @@ static char *seqs[] = {
 	ESC "[105m",
 	ESC "[106m",
 	ESC "[107m",
+	/* Clearing sequences. */
+	ESC "[J",
+	ESC "[0J",
+	ESC "[1J",
+	ESC "[2J",
+	ESC "[K",
+	ESC "[0K",
+	ESC "[1K",
+	ESC "[2K",
 	0
 } ;
 
@@ -162,7 +179,17 @@ static int argnum[] = {
 	0,
 	0,
 	0,
-	/* */
+	/* Deleting. */
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
 } ;
 
 void
