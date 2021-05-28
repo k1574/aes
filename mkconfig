@@ -1,3 +1,6 @@
 <$MKINCDIR/config
 PROGNAME = aes
+INCS = -I$INCDIR/aes
 CFILES = main.c
+AFILES = $OBJDIR/aes.a
+
