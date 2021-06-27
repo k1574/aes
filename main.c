@@ -65,6 +65,12 @@ static char *seq_names[] = {
 	"clr-til-line-end",
 	"clr-til-line-beg",
 	"clr-ent-line",
+	"make-cur-invisible",
+	"make-cur-visible",
+	"restore-screen",
+	"save-screen",
+	"enable-alt-buf",
+	"disable-alt-buf",
 	0
 } ;
 
